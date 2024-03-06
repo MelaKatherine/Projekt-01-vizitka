@@ -1,3 +1,117 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+
+
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: #FFFFEC;
+    color: #597E52;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.section{
+    padding-bottom: 100px;
+
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav{
+    font-family: "Madimi One", sans-serif;
+    font-size: 22px;
+}
+.main_nav{
+    text-align: center;
+    background-color:  #F1E4C3; 
+}
+.main_nav li{
+    display: inline-block;
+}
+.main_nav a{
+    display: inline-block;
+    padding: 30px;
+    color: #597E52;
+}
+.main_nav a:hover{
+    background-color:#C6A969;
+    transition: 2s;
+    
+}
+
+.header{
+    padding: 200px 0;
+    text-align: center;
+    background-image: url(krusne-hory.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.header_title{
+    font-family: "Madimi One", sans-serif;
+    font-size: 65px;
+    color:#C6A969;
+}
+
+.section_title{
+    font-family: "Madimi One", sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.about{
+    padding-top: 100px;
+    overflow: auto;
+}
+
+.about_content{
+    
+}
+.about_img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 70px;
+    margin-left: 91px;
+}
+.about_text{
+   width: 70%;
+   margin-bottom: 20px;  
+}
+
+.fotogallery img{
+    width: 49%;
+    height: 480px;
+    border-radius: 2%;
+    border: 2px solid #C6A969;
+}
+
+.contact{
+    text-align: center;
+}
+.contact a{
+    color:#597E52;
+}
+
+.footer{
+    text-align: center;
+    padding: 25px 0;
+    background-color: #597E52;
+    color:#F1E4C3;
+}
